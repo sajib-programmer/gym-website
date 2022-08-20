@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 10vh;
+    align-items: center;
+}
+.logo_title{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.menu_var{
+    display: flex;
+    margin-right: 50px;
+}
+.menu_var li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+}
+.menu_var li:hover{
+    color: red;
+    cursor: pointer;
+}
+.banner_container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_left{
+    margin: 20px 10px;
+    padding: 15px;
+    
+}
+.banner_img{
+    height: 500px;
+}
+.text{
+    color: red;
+    font-size:20px;
+}
+.banner_header{
+    font-size: 60px;
+}
+.b_description{
+    font-size: 22px;
+}
+.bn_button{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+.bn_button:hover{
+    background-color:royalblue;
+    color: white;
+    cursor: pointer;
+}
+.sec_2{
+    height: 70vh;
+}
+.tak-lok{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px 15px;
+}
+.card-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    width: 230px;
+    box-shadow: 2px 2px gray;
+    transition-property: height;
+    transition-duration: 1s;
+    
+   
+    
+
+}
+.card-icon{
+    width: 50px;
+}
+.card:hover{
+    height: 280px;
+}
